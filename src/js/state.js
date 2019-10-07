@@ -102,10 +102,10 @@ var state = (function() {
       },
       button: {
         editAdd: {
-          show: true,
+          show: true
         },
         accent: {
-          show: true,
+          show: true
         },
         style: "box",
         size: 1
@@ -151,12 +151,15 @@ var state = (function() {
         },
         name: {
           show: true,
-          size: 0.9,
+          size: 0.9
         },
         url: {
           show: true
         },
         line: {
+          show: true
+        },
+        shadow: {
           show: true
         },
         hoverScale: {
@@ -169,7 +172,8 @@ var state = (function() {
       show: true,
       add: false,
       edit: false,
-      style: "block"
+      style: "block",
+      orientation: "bottom"
     },
     layout: {
       alignment: "centercenter",
@@ -225,7 +229,7 @@ var state = (function() {
     search: false,
     menu: false,
     modal: false,
-    autoSuggest: false,
+    autoSuggest: false
   };
 
   mod.get = function() {
